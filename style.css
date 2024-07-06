@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.caixa-mãe {
+
+    display: flex;
+    width: 100vh;
+    height: 100vh;
+}
+
+h1 {
+    width: 438px;
+    height: 151px;
+    flex-shrink: 0;
+    color: #325259;
+    font-family: Oswald;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    margin-top: 193px;
+    margin-left: 100px;
+
+}
+
+p {
+    margin-left: 100px;
+}
+
+button {
+    width: 271px;
+    height: 56px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: white;
+    background: #F2695C;
+    box-shadow: 5px 6px 5px 0px rgba(0, 0, 0, 0.20);
+    cursor: pointer;
+}
+
+img {
+    width: 409px;
+    height: 385px;
+    flex-shrink: 1;
+    margin-top: 79px;
+    position: relative;
+    left: 235px;
+}
+
+.mascara1 {
+
+
+    width: 30%;
+    height: 100vh;
+    flex-shrink: 0;
+    margin-left: 940px;
+
+    position: absolute;
+
+
+    background: rgba(50, 82, 89, 0.35);
+}
+
+.caixa2 {
+    margin-top: 25px;
+}
+
+a {
+
+    position: relative;
+    bottom: -35px;
+    margin: 17px;
+    left: 235px;
+
+
+    width: 45px;
+    height: 23px;
+    flex-shrink: 0;
+    color: #4A4848;
+    font-family: Oswald;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mascara2 {
+    width: 1920px;
+    height: 72px;
+    position: fixed;
+
+
+    flex-shrink: 0;
+    backgrsound: rgba(242, 105, 92, 1);
+}
+
+@media(max-width:600px) {
+
+
+    body {
+
+        width: 400px;
+
+        flex-direction: column;
+    }
+
+
+    .caixa-mãe {
+        flex-direction: column;
+        position: relative;
+    }
+
+    h1 {
+        width: 400px;
+        position: relative;
+        flex-shrink: 0;
+        color: #325259;
+        font-family: Oswald;
+        font-size: 29px;
+        font-style: normal;
+        font-weight: 800;
+
+        margin-top: 100px;
+        margin-left: 25px;
+
+    }
+
+    p {
+        position: relative;
+        left: -20px;
+        bottom: -300px;
+
+
+    }
+
+
+    a {
+
+
+        position: relative;
+        bottom: 820px;
+        margin: 7px;
+        left: 40px;
+
+
+        width: 45px;
+        height: 23px;
+        flex-shrink: 0;
+        color: #4A4848;
+        font-family: Oswald;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+
+
+    img {
+        width: 300px;
+        height: 385px;
+        flex-shrink: 1;
+        margin-top: 79px;
+        position: relative;
+        left: -260px;
+        bottom: 370px;
+    }
+
+    .mascara1 {
+        width: 0;
+    }
+
+    button {
+        position: relative;
+        bottom: -300px;
+        left: 0px;
+        width: 215px;
+        height: 40px;
+    }
+
+}
